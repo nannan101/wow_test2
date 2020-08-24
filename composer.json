@@ -1,0 +1,22 @@
+{
+    "name": "qiaonan/wow_test",
+    "description": "Scan URLS FROM A CSv",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "Gitea",
+            "email": "gitea@fake.local"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload": {
+        "psr-4": {
+          "Src\\": "src/"
+        }
+    }
+	
+}
